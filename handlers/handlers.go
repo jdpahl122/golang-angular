@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/jdpahl122/golang-auth0-example/todo"
+	"github.com/jdpahl122/golang-angular/todo"
 )
 
 // GetTodoListHandler returns all current todo items
