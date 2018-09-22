@@ -3,8 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  gateway: 'http://localhost:3000',
+  callback: 'http://localhost:4200/callback',
+  domain: 'starlabs.auth0.com',
+  clientId: 'kMw3ruZjrYDzyYoquVofXKIrFzvYHQHa',
+  audience: 'https://todo-api'
 };
+
 
 /*
  * For easier debugging in development mode, you can import the following file
