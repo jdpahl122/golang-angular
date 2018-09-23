@@ -86,7 +86,7 @@ func terminateWithError(statusCode int, message string, c *gin.Context) {
 	c.Abort()
 }
 
-// Set allowable origins and content
+// CORSMiddleware will set allowable origins and content
 func CORSMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		c.Writer.Header().Set("Access-Control-Allow-Origin", "*")
